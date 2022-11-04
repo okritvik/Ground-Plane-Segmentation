@@ -3,7 +3,7 @@
 """
 
 @author: okritvik
-Horizontal flip
+Vertical flip
 """
 
 import os
