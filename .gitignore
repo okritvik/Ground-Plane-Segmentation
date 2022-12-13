@@ -1,3 +1,9 @@
 Data/
 Dataset/
 Videos/
+dataloop/
+lightning_logs/
+dataloop.zip
+__pycache__/
+dataloop.zip
+predictions/

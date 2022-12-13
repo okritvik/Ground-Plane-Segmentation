@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: okritvik
+@author: Kumara Ritvik Oruganti, Adarsh Malapaka, Sai Sandeep Adapa
 
 Random brightness and contrast for the image
 """
@@ -17,6 +17,8 @@ train_path = pwd+"/Dataset/Train"
 
 augmented_path = pwd+"/Dataset/Augmented_Images"
 
+annotations_path = pwd+"/Dataset/Annotations"
+annotations_augmented_path = pwd+"/Dataset/Augmented_Annotations"
 
 transform = A.Compose([
             A.RandomBrightnessContrast(p=0.7, brightness_limit=0.5)
@@ -33,5 +35,9 @@ for img in train_images:
     tf_image = tf["image"]
 
     cv2.imwrite(augmented_path+"/"+"C"+img, tf_image)
+
+    # Save same annotation with file name for the file as it is just contrast and brightness
+    frame = cv2.imread(annotations_path+"/"+img)
+    cv2.imwrite(annotations_augmented_path+"/"+"C"+img, frame)
     
 print("done random brightness and contrast on the images")

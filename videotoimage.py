@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@author: Kumara Ritvik Oruganti
+@author: Kumara Ritvik Oruganti, Adarsh Malapaka, Sai Sandeep Adapa
+Convert Videos to images by taking every 100th frame
 """
 #Import opencv package
 import cv2

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-
-@author: okritvik
+@author: Kumara Ritvik Oruganti, Adarsh Malapaka, Sai Sandeep Adapa
+Separate the training data from the test data
 """
 
 # Move Remaining data to training set

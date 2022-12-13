@@ -2,9 +2,9 @@
 """
 Brief: Teleoperates a robot around and records a HD video for a duration of 5 minutes to be used as 
        a datset for training a sematic segmentation Deep Learning model. 
-Course: ENPM673 - Perception for Autonomous Robotics [Project-04]
+Course: ENPM809K - Fundamentals of AI and Deep Learning Framework
         University of Maryland, College Park (MD)
-Date: 25th April, 2022
+Date: 13th December, 2022
 """
 
 import os
